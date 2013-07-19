@@ -20,13 +20,16 @@ information.
 
 ##Example##
 **Before:**
+
 ![before](https://github.com/toiletfreak/swagger/blob/master/doc/before.jpg
         "Before image")
+
+**After:**
+
 ![After](https://github.com/toiletfreak/swagger/blob/master/doc/after.jpg
         "After image (encrypted message: 'hello world (안녕하세요!
 잘지네세요?)')")
 
-**After:**
 
 
 ##Installation#
