@@ -58,6 +58,15 @@ relevant argument object.  Listen for the `promise` callback.
 None at the moment.  Post any via the bug tracker.
 
 
+##Security##
+How secure is it?  Well, pretty secure.
+
+1. Text is encrypted with AES-256 cipher and salted.
+2. Text is concealed within least-probable detected areas and salted with a second
+   salt.
+3. Image would have to be earmarked as having embedded information (hard),
+   before being cracked.
+
 ##Credit#
 
 Joel Haowen TONG (me [at] joeltong [dot] org) 
