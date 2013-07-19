@@ -9,7 +9,7 @@ var http = require('http')
     , exec = require("child_process").exec;
 
 
-var steg = (function() {
+var stegger = (function() {
     return {
         /* ----------------------------------------------------------------*/
         /**
@@ -223,4 +223,4 @@ var steg = (function() {
 })();
 
 
-module.exports = steg;
+module.exports = stegger;

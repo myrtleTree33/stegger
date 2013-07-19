@@ -7,23 +7,22 @@
     "keywords" : [
         "steganography",
         "stegger",
-        "swagger",
         "outguess wrapper",
         "embedded text",
         "cryptography",
         "hide text within images"
         
     ],
-    "main" : "./swagger.js",
+    "main" : "./stegger.js",
     "engines" : {
         "node" : "*"
     },
     "repository" : {
         "type" : "git",
-        "url" : "https://github.com/toiletfreak/swagger.git"
+        "url" : "https://github.com/toiletfreak/stegger.git"
     },
     "bugs" : {
-        "url" : "https://github.com/toiletfreak/swagger/issues"
+        "url" : "https://github.com/toiletfreak/stegger/issues"
     },
     "licenses" : [{
         "type" : "MIT"

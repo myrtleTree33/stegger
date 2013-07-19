@@ -1,11 +1,11 @@
-Swagger
+Stegger
 =========
 
 **Steganography made simple for Node.JS**
 
 
 ##About#
-Swagger is a steganographic utility for Node.JS, to conceal encrypted text
+Stegger is a steganographic utility for Node.JS, to conceal encrypted text
 within JPEG images (yes, JPEG!).  It wraps around the UNIX utility, `outguess`.
 
 I couldn't find a working existing module on `npm`, so I made my own. =
@@ -21,11 +21,11 @@ information.
 ##Example##
 **Before:**
 
-![before](https://github.com/toiletfreak/swagger/blob/master/doc/before.jpg)
+![before](https://github.com/toiletfreak/stegger/blob/master/doc/before.jpg)
 
 **After:**
 
-![After](https://github.com/toiletfreak/swagger/blob/master/doc/after.jpg)
+![After](https://github.com/toiletfreak/stegger/blob/master/doc/after.jpg)
         
 Encrypted message: 'hello world (안녕하세요! 잘지네세요?)'
 
@@ -39,7 +39,7 @@ Encrypted message: 'hello world (안녕하세요! 잘지네세요?)'
 
 2. Install from `npm`: 
 
-    npm install swagger
+    npm install stegger
 
 3. You're all set!  Load a picture, and get swagging!
 

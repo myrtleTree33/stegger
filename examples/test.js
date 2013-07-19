@@ -1,6 +1,6 @@
 /**
  * @file test.js
- * @brief Test driver for Swagger.js
+ * @brief Test driver for Stegger.js
  * @author Joel Haowen TONG
  * @version 0.1.1
  * @date 2013-07-19
@@ -11,11 +11,11 @@
  * using 2-layer encryption.  AES-256 cipher is first used, with a secret key.
  * Thereafter, the resultant crypted string is salted with the passphrase.
  *
- * Note: swagger.encrypt() and decrypt() return promises, which must then be listened for a result.
+ * Note: stegger.encrypt() and decrypt() return promises, which must then be listened for a result.
  *
  */
 
-var swagger = require('../swagger')
+var stegger = require('../stegger')
     , Sequence = require('futures').sequence;
 
 
@@ -23,7 +23,7 @@ Sequence()
 .then(function(next) {
     console.log('');
     console.log('--Testing ENCRYPT--')
-    swagger.encrypt({
+    stegger.encrypt({
         inFile     : 'image.jpg',
         outFile    : 'output.jpg',
         msg        : 'hello world (안녕하세요! 잘지네세요?)',
@@ -43,7 +43,7 @@ Sequence()
 
 .then(function(next, data) {
     console.log('--Testing DECRYPT--')
-    swagger.decrypt({
+    stegger.decrypt({
         inFile     : data,
         outFile    : 'decrypted.txt',
         key        : 'bla bla',
