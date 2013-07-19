@@ -1,42 +1,42 @@
 {
-    'name' : 'moment',
-    'version' : '0.1.1',
-    'description' : '2-layer encryption of text, embedded within images (Steganography).  Wrapper for the *NIX utility, outguess.',
-    'homepage' : 'http://blog.joeltong.org',
-    'author' : 'Joel H Tong (jhtong) <me [at] joeltong [dot] org> (http://blog.joeltong.org)',
-    'keywords' : [
-        'steganography',
-        'stegger',
-        'swagger',
-        'outguess wrapper',
-        'embedded text',
-        'cryptography',
-        'hide text within images'
+    "name" : "moment",
+    "version" : "0.1.1",
+    "description" : "2-layer encryption of text, embedded within images (Steganography).  Wrapper for the *NIX utility, outguess.",
+    "homepage" : "http://blog.joeltong.org",
+    "author" : "Joel H Tong (jhtong) <me [at] joeltong [dot] org> (http://blog.joeltong.org)",
+    "keywords" : [
+        "steganography",
+        "stegger",
+        "swagger",
+        "outguess wrapper",
+        "embedded text",
+        "cryptography",
+        "hide text within images"
         
     ],
-    'main' : './swagger.js',
-    'engines' : {
-        'node' : '*'
+    "main" : "./swagger.js",
+    "engines" : {
+        "node" : "*"
     },
-    'repository' : {
-        'type' : 'git',
-        'url' : ''
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/toiletfreak/swagger.git"
     },
-    'bugs' : {
-        'url' : ''
+    "bugs" : {
+        "url" : "https://github.com/toiletfreak/swagger/issues"
     },
-    'licenses' : [{
-        'type' : 'MIT'
+    "licenses" : [{
+        "type" : "MIT"
     }],
-    'devDependencies' : {
-        'crypto' : 'latest',
-        'moment' : 'latest',
-        'fs' : 'latest',
-        'futures' : 'latest',
-        'future' : 'latest',
-        'util' : 'latest',
-        'child_process' : 'latest'
+    "devDependencies" : {
+        "crypto" : "latest",
+        "moment" : "latest",
+        "fs" : "latest",
+        "futures" : "latest",
+        "future" : "latest",
+        "util" : "latest",
+        "child_process" : "latest"
     },
-    'scripts' : {
+    "scripts" : {
     }
 }
